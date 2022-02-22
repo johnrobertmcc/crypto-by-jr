@@ -1,0 +1,32 @@
+.containerW {
+  @apply container relative flex max-w-limit items-center justify-center;
+}
+.paddingTop {
+  @apply pt-12;
+}
+
+.paddingBtm {
+  @apply pb-12;
+}
+
+/* Layout Style */
+.condensed {
+  max-width: 768px;
+}
+
+.large {
+  max-width: 1000px;
+}
+
+/* Remove side padding */
+.noSidePadding {
+  @apply px-0;
+}
+
+.headerContainer {
+  @apply my-0 h-full w-full items-center justify-between lg:flex;
+}
+
+.footerContainer {
+  @apply grid h-full grid-cols-2 pt-10;
+}

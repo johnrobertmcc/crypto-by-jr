@@ -1,0 +1,31 @@
+.noMetaMask,
+.innerWrap {
+  @apply w-full px-4 py-36 md:px-20;
+}
+
+.innerWrap {
+  @apply grid h-full gap-10 md:grid-cols-2;
+}
+
+.leftLayout {
+  @apply flex w-full flex-1 flex-col justify-center md:mr-10;
+}
+
+.header {
+  @apply pb-5 text-h1 text-white;
+}
+
+.description {
+  @apply mt-5 w-11/12 text-left font-light text-white md:w-9/12;
+}
+
+.rightLayout {
+  @apply w-full py-5;
+}
+.loading {
+  @apply h-10;
+}
+
+.submitBtn {
+  @apply rounded-full bg-white p-5 py-3 font-bold hover:text-primary;
+}

@@ -1,0 +1,4 @@
+.input {
+  @apply w-full rounded-sm p-2 text-16 outline-none;
+  @apply mb-4 bg-white bg-opacity-90 text-black;
+}

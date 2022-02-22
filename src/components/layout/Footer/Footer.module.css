@@ -1,0 +1,20 @@
+.gitHub,
+.linkedIn,
+.branding,
+.donate {
+  @apply col-span-1 border-white border-opacity-10 p-5 text-center  font-bold hover:text-white md:p-10;
+}
+
+.gitHub {
+  @apply rounded-tl-full border-r border-b;
+}
+
+.linkedIn {
+  @apply rounded-tr-full border-b;
+}
+.branding {
+  @apply rounded-bl-full border-r;
+}
+.donate {
+  @apply rounded-br-full;
+}

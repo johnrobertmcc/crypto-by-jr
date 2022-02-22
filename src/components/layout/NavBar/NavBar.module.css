@@ -1,0 +1,27 @@
+.logo {
+  @apply flex h-full items-center bg-white py-4;
+}
+
+.logoImg {
+  @apply h-full;
+}
+
+.connect {
+  @apply flex h-full cursor-pointer items-center justify-center bg-white p-0 font-semibold;
+}
+
+.loading {
+  @apply h-full py-2;
+}
+
+.signedIn {
+  @apply h-full flex-col items-center justify-end;
+  @apply bg-white text-center text-14;
+}
+
+p {
+  @apply inline-block h-full p-5;
+}
+span {
+  @apply font-semibold;
+}

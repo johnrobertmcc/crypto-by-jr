@@ -1,0 +1,27 @@
+.white {
+  @apply bg-white;
+}
+
+.primary {
+  @apply bg-primary;
+}
+
+.noPaddingTop {
+  @apply pt-0;
+}
+
+.noPaddingBtm {
+  @apply pb-0;
+}
+
+.siteHeader {
+  @apply sticky top-0 z-50 flex w-full items-center justify-center overflow-hidden bg-white;
+
+  height: 80px;
+}
+
+.siteFooter {
+  @apply block w-full items-center justify-center;
+
+  min-height: 250px;
+}
