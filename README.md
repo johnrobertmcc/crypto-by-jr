@@ -1,4 +1,4 @@
-# Crypto by J.R
+# Crypto by JR
 
 ![alt-text](https://github.com/johnrobertmcc/crypto-by-jr/blob/main/public/assets/readme.png "readme")
 
