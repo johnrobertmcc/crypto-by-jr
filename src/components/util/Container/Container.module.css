@@ -30,3 +30,7 @@
 .footerContainer {
   @apply grid h-full grid-cols-2 pt-10;
 }
+
+.noWallet {
+  @apply flex min-h-screen w-full flex-col items-center justify-center text-center text-black;
+}

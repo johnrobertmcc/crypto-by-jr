@@ -7,6 +7,7 @@ import Loading from "./Loading";
 import { useRef, useState, useEffect } from "react";
 import Wrapper from "../util/Wrapper";
 import { useAppContext } from "../../context/index";
+import Container from "../util/Container";
 
 /**
  * Renders the Default Layout of the dapp.
@@ -34,25 +35,25 @@ export default function Layout() {
       {loading ? (
         <Loading />
       ) : (
-        <Wrapper tag="main" className={styles.content}>
+        <Wrapper tag="main" className={"content"}>
           {!metaMask ? (
-            <div className={styles.noMetaMask}>
+            <Container className={"noWallet"}>
               <h2>
-                Please install MetaMask extension to continue using this dapp
+                Please install MetaMask extension to continue using this dApp.
               </h2>
               <a target="_blank" rel="noreferrer" href="https://metamask.io/">
                 &rarr; Install MetaMask Here &larr;
               </a>
-            </div>
+            </Container>
           ) : !!currentAccount ? (
             <>
               <Wallet />
               <Transactions />
             </>
           ) : (
-            <div className={styles.noMetaMask}>
+            <Container className={"noWallet"}>
               <h2>Please Log in to MetaMask Browser Extension to continue.</h2>
-            </div>
+            </Container>
           )}
         </Wrapper>
       )}

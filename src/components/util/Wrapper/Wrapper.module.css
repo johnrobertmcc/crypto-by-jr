@@ -25,3 +25,7 @@
 
   min-height: 250px;
 }
+
+.content {
+  @apply min-h-screen w-full flex-col items-center justify-center;
+}
