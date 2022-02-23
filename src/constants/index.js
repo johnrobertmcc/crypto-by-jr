@@ -14,4 +14,4 @@ export const INPUTS = [
 export const CRYPTO_API =
   "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD";
 
-  export const DONATION_ADDRESS = "0xC1BAC87AE3A78fE0A32245D80A88d96a5192E9Bf";
+export const DONATION_ADDRESS = "0xC1BAC87AE3A78fE0A32245D80A88d96a5192E9Bf";
