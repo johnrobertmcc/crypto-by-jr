@@ -1,6 +1,6 @@
 # Crypto by J.R
 
-![Preview](https://github.com/johnrobertmcc/crypto-by-jr/tree/main/public/assets/readme.gif "homepage")
+![Preview](https://github.com/johnrobertmcc/crypto-by-jr/blob/main/public/assets/readme.gif"readme")
 
 A decentralized app used to send Ethereum to anyone with a MetaMask wallet. Each transaction will take ~60 seconds.
 
