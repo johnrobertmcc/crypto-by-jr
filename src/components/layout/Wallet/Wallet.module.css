@@ -12,7 +12,7 @@
 }
 
 .header {
-  @apply pb-5 text-h1 text-white;
+  @apply md:text-h3 text-h5 pb-5 text-white;
 }
 
 .description {
@@ -27,5 +27,5 @@
 }
 
 .submitBtn {
-  @apply rounded-full bg-white p-5 py-3 font-bold hover:text-primary;
+  @apply hover:text-primary rounded-full bg-white p-5 py-3 font-bold;
 }

@@ -28,7 +28,7 @@ export default function Wallet() {
         <div className={styles.innerWrap}>
           <div className={styles.leftLayout}>
             <h1 className={styles.header}>
-              Sending Ethereum <br /> Made Easy
+              Securely Interact <br /> With the Blockchain
             </h1>
           </div>
           <div className={styles.rightLayout}>

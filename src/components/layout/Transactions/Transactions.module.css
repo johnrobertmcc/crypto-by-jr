@@ -9,16 +9,20 @@
   @apply flex h-full w-full justify-around;
 }
 h2 {
-  @apply w-full py-5 text-h2 font-semibold;
+  @apply md:text-h2 text-16 w-full py-5 font-semibold;
 }
 .currency {
   @apply flex flex-col items-center justify-center;
 }
 label {
-  @apply text-h6 font-semibold;
+  @apply text-14 md:text-h6 font-semibold;
 }
 select {
   @apply my-5 w-full border border-black bg-white;
+}
+
+.transactionContainer {
+  @apply relative min-h-full w-full overflow-x-scroll border border-black;
 }
 
 .transactions {
@@ -30,7 +34,7 @@ td {
 }
 
 .tableHeader {
-  @apply border text-center text-16;
+  @apply text-16 border text-center;
 }
 
 .noTransactions {
@@ -38,5 +42,5 @@ td {
 }
 
 .message {
-  @apply text-center text-h3;
+  @apply text-h3 text-center;
 }

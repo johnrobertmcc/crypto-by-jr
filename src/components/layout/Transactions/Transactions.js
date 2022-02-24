@@ -89,19 +89,21 @@ export default function Transactions() {
             </div>
           </div>
           {!!transactions.length ? (
-            <table className={styles.transactions}>
-              <thead>
-                <tr className={styles.tableHeader}>
-                  <th>Currency</th>
-                  <th>Amount</th>
-                  <th>To</th>
-                  <th>From</th>
-                  <th>Message</th>
-                  <th>Date</th>
-                </tr>
-              </thead>
-              <tbody>{reverseTableRows()}</tbody>
-            </table>
+            <div className={styles.transactionContainer}>
+              <table className={styles.transactions}>
+                <thead>
+                  <tr className={styles.tableHeader}>
+                    <th>Currency</th>
+                    <th>Amount</th>
+                    <th>To</th>
+                    <th>From</th>
+                    <th>Message</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>{reverseTableRows()}</tbody>
+              </table>
+            </div>
           ) : (
             <div className={styles.noTransactions}>
               <h3 className={styles.message}>No Transactions yet.</h3>

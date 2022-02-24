@@ -212,6 +212,7 @@ export function TransactionProvider({ children }) {
   useEffect(() => {
     if (ethereum) {
       setMetaMask(true);
+      getAllTransactions();
     }
   }, []);
 
