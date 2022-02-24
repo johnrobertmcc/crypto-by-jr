@@ -2,17 +2,17 @@
   @apply h-full py-36;
 }
 .innerWrap {
-  @apply h-full w-full items-center justify-center px-5;
+  @apply h-full w-full items-center justify-center md:px-5;
 }
 
 .header {
-  @apply flex h-full w-full justify-around;
+  @apply flex h-full w-full justify-around px-3;
 }
 h2 {
   @apply md:text-h2 text-16 w-full py-5 font-semibold;
 }
 .currency {
-  @apply flex flex-col items-center justify-center;
+  @apply flex flex-col items-end justify-end;
 }
 label {
   @apply text-14 md:text-h6 font-semibold;
@@ -22,19 +22,29 @@ select {
 }
 
 .transactionContainer {
-  @apply relative min-h-full w-full overflow-x-scroll border border-black;
+  @apply relative min-h-full min-w-full overflow-x-scroll;
 }
 
 .transactions {
   @apply w-full;
 }
-
+table {
+  @apply md:text-16 text-12;
+  min-width: 700px;
+}
 td {
   @apply w-1/6 border-b border-gray-100 py-5 text-center;
 }
+th {
+  @apply border-r bg-white text-center;
+}
+
+tr:nth-child(odd) {
+  @apply bg-gray-100 bg-opacity-50;
+}
 
 .tableHeader {
-  @apply text-16 border text-center;
+  @apply border bg-white text-center;
 }
 
 .noTransactions {
