@@ -2,8 +2,7 @@
 
 ![alt-text](https://github.com/johnrobertmcc/crypto-by-jr/blob/main/public/assets/readme.png "readme")
 
-A decentralized app used to connect to the blockchain and Ethereum to anyone with a MetaMask wallet. Each transaction will take ~60 seconds.
-
+A decentralized app used to connect to the blockchain and send Ether to anyone with a MetaMask wallet. Each transaction will take ~60 seconds.
 
 ### React.js
 
