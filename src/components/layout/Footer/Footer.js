@@ -44,8 +44,8 @@ export default function Footer({ loading }) {
         </a>
         <a
           target="_blank"
+          href="https://github.com/johnrobertmcc"
           rel="noreferrer"
-          href="https://www.johnrobertmcc.com/"
           className={styles.branding}
         >
           Created by J.R.
